@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plants</title>
+    <link rel="icon" type="image/x-icon" href="./assets/icons/logo_vector.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-container">
+        <a class="header-logo-link" href="./index.html"> <img class="header-logo-img" src="./assets/icons/logo_vector.svg" alt="Plants logo" width="20" height="20" />Plants </a>
+        <nav>
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+          >
+            <svg class="menu"
+              width="40"
+              height="24"
+            >
+              <use class="icons icon-open" href="./assets/icons/sprite.svg#open"></use>
+              <use class="icons icon-close" href="./assets/icons/sprite.svg#cross"></use>
+            </svg>
+          </button>
+
+          <ul class="header-nav-list">
+            <li class="header-nav-items"><a class="header-links current-link" href="./index.html">Home</a></li>
+            <li class="header-nav-items"><a class="header-links" href="#about">About us</a></li>
+            <li class="header-nav-items"><a class="header-links" href="#service">Service</a></li>
+            <li class="header-nav-items"><a class="header-links" href="#price">Price</a></li>
+            <li class="header-nav-items"><a class="header-links" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <!-- Section Welcome -->
+      <section class="welcome">
+        <div class="container welcome-container">
+          <div class="welcome-container-text">
+            <h1 class="welcome-headline">We grow <span class="welcome-headline-span">plants</span> and give you oxygen</h1>
+            <p class="welcome-text paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+            <button class="button welcome-btn">Learn more</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section About -->
+      <section id="about">
+        <div class="container about-container">
+          <div class="about-container-text">
+            <h2 class="about-headline">We are <span class="about-headline-span">professional experienced</span> gardeners</h2>
+            <p class="about-text paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Service -->
+      <section id="service">
+        <div class="container service-container">
+          <div class="service-container-list">
+            <h2 class="service-headline">Service and our projects</h2>
+            <ul class="list-btn">
+              <li class="list-item-btn"><button class="button service-btn">Gardens</button></li>
+              <li class="list-item-btn"><button class="button service-btn">Lawn</button></li>
+              <li class="list-item-btn"><button class="button service-btn">Planting</button></li>
+            </ul>
+          </div>
+
+          <ul class="card-set">
+            <li class="card-item">
+              <article class="card">
+                <div class="card-img">
+                  <img src="./assets/images/card1.jpg" alt="Garden care" />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-headline">Garden care</h3>
+                  <p class="card-text">Lorem Ipsum has been the industry</p>
+                </div>
+              </article>
+            </li>
+            <li class="card-item">
+              <article class="card">
+                <div class="card-img">
+                  <img src="./assets/images/card2.jpg" alt="Planting" />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-headline">Planting</h3>
+                  <p class="card-text">Lorem Ipsum has been the industry</p>
+                </div>
+              </article>
+            </li>
+            <li class="card-item">
+              <article class="card">
+                <div class="card-img">
+                  <img class="change-img" src="./assets/images/card3.jpg" alt="Lawn care" />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-headline">Lawn care</h3>
+                  <p class="card-text">Lorem Ipsum has been the industry</p>
+                </div>
+              </article>
+            </li>
+            <li class="card-item">
+              <article class="card">
+                <div class="card-img">
+                  <img src="./assets/images/card4.jpg" alt="Planting" />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-headline">Planting</h3>
+                  <p class="card-text">Lorem Ipsum has been the industry</p>
+                </div>
+              </article>
+            </li>
+            <li class="card-item">
+              <article class="card">
+                <div class="card-img">
+                  <img src="./assets/images/card5.jpg" alt="Garden care" />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-headline">Garden care</h3>
+                  <p class="card-text">Lorem Ipsum has been the industry</p>
+                </div>
+              </article>
+            </li>
+            <li class="card-item">
+              <article class="card">
+                <div class="card-img">
+                  <img src="./assets/images/card6.jpg" alt="Planting" />
+                </div>
+                <div class="card-content">
+                  <h3 class="card-headline">Planting</h3>
+                  <p class="card-text">Lorem Ipsum has been the industry</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section Price -->
+      <section id="price">
+        <div class="container price-container">
+          <div class="price-info">
+            <h2 class="price-headline">Prices</h2>
+            <ul class="price-list">
+              <li class="price-list-item"><button class="price-info-btn">Basics</button></li>
+              <li class="price-list-item"><button class="price-info-btn">Standard</button></li>
+              <li class="price-list-item"><button class="price-info-btn">Pro care</button></li>
+            </ul>
+          </div>
+          <div class="price-call-content">
+            <p class="price-call-text">Our best <span class="price-call-span">gardeners</span> are ready to help you</p>
+            <button class="button price-call-btn">Contact us</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Contacts -->
+      <section id="contacts">
+        <div class="container contacts-container">
+          <img class="contacts-img" src="./assets/images/contact_woman.png" alt="Woman with flowers" />
+          <h2 class="contacts-headline">Contact us</h2>
+          <div class="select-backdrop">
+            <ul class="select-list">
+              <li class="select-list-item">Canandaigua, NY</li>
+              <li class="select-list-item">New York City</li>
+              <li class="select-list-item">Yonkers, NY</li>
+              <li class="select-list-item">Sherrill, NY</li>
+            </ul>
+          </div>
+          <button class="select-open-button">City
+            <img class="arrow" src="./assets/icons/arrow.svg" alt="Arrow">
+          </button>
+
+          <div class="contacts-city-selected">
+            <p class="first select-city-title"></p>
+            <ul>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts-city-selected">
+            <p class="second select-city-title"></p>
+            <ul>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts-city-selected">
+            <p class=" third select-city-title"></p>
+            <ul>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts-city-selected">
+            <p class=" fourth select-city-title"></p>
+            <ul>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+              <li>
+                <p></p>
+                <p></p>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-info">
+          <p>&copy;</p>
+          <p>2022</p>
+          <a class="footer-link-github" href="https://github.com/vovakhotiv" target="_blank">github</a>
+        </div>
+        <a class="footer-link-school" href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a>
+        <ul class="footer-social">
+          <li><img src="./assets/icons/inst.svg" alt="Instagram" /></li>
+          <li><img src="./assets/icons/fb.svg" alt="Facebook" /></li>
+          <li><img src="./assets/icons/tw.svg" alt="Twitter" /></li>
+          <li><img src="./assets/icons/pint.svg" alt="Pinterest" /></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+      <nav>
+        <ul class="mobile-nav-list">
+          <li class="mobile-nav-items"><a class="mobile-links" href="./index.html">Home</a></li>
+          <li class="mobile-nav-items"><a class="mobile-links" href="#about">About us</a></li>
+          <li class="mobile-nav-items"><a class="mobile-links" href="#service">Service</a></li>
+          <li class="mobile-nav-items"><a class="mobile-links" href="#price">Price</a></li>
+          <li class="mobile-nav-items"><a class="mobile-links" href="#contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

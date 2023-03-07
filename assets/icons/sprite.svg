@@ -1,0 +1,8 @@
+<svg width="0" height="0" class="hidden">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 26" id="open">
+    <path stroke="#717171" stroke-width="2" d="M0 1h40M0 9h40M0 17h40M0 25h40"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" id="cross">
+    <path d="M960 170.56 869.44 80 512 437.44 154.56 80 64 170.56 421.44 528 64 885.44 154.56 976 512 618.56 869.44 976 960 885.44 602.56 528 960 170.56z"></path>
+  </symbol>
+</svg>
