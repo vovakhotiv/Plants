@@ -96,8 +96,6 @@ h2 {
 @media screen and (max-width: 1439px) {
   .container {
     max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0 50px;
   }
 
@@ -113,8 +111,6 @@ h2 {
 @media screen and (max-width: 767px) {
   .container {
     max-width: 380px;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0 25px;
   }
 
@@ -124,6 +120,14 @@ h2 {
 
   .paragraph {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .container {
+    box-sizing: content-box;
+    max-width: 330px;
+    padding: 0 calc((100vw - 330px) / 2);
   }
 }
 
@@ -294,7 +298,7 @@ section:nth-child(2n-1) {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../plants/assets/images/leafs.png);
+  background-image: url(./assets/images/leafs.png);
 }
 
 .welcome-container-text {
@@ -424,7 +428,7 @@ section:nth-child(2n-1) {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../plants/assets/images/houseplant.png);
+  background-image: url(./assets/images/houseplant.png);
 }
 
 .about-container-text {
@@ -729,6 +733,7 @@ section:nth-child(2n-1) {
 }
 
 .price-list {
+  min-width: 332px;
   display: flex;
   flex-direction: column;
   padding: 34px 41px;
@@ -768,7 +773,7 @@ section:nth-child(2n-1) {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../plants/assets/icons/accordion_btn.svg);
+  background-image: url(./assets/icons/accordion_btn.svg);
 }
 
 .price-call-text {
@@ -811,7 +816,7 @@ section:nth-child(2n-1) {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../plants/assets/images/leafs-small.png);
+  background-image: url(./assets/images/leafs-small.png);
 }
 
 @media screen and (max-width: 1439px) {
@@ -856,7 +861,7 @@ section:nth-child(2n-1) {
   }
 
   .price-list {
-    max-width: 224px;
+    min-width: 224px;
     padding: 29px 22px;
     border: 1px solid #e3e1d5;
     border-radius: 20px;
@@ -1070,7 +1075,7 @@ section:nth-child(2n-1) {
   cursor: pointer;
 }
 
-.contacts-btn::after {
+/* .contacts-btn::after {
   content: '';
   display: inline-block;
   height: 16px;
@@ -1080,8 +1085,8 @@ section:nth-child(2n-1) {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../plants/assets/icons/accordion_btn.svg);
-}
+  background-image: url(./assets/icons/accordion_btn.svg);
+} */
 
 @media screen and (max-width: 1439px) {
   .contacts-container {
@@ -1104,7 +1109,7 @@ section:nth-child(2n-1) {
     margin-left: 0;
   }
 
-  .contacts-btn {
+  .select-open-button {
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 247px;
@@ -1130,17 +1135,21 @@ section:nth-child(2n-1) {
     margin-left: 0;
   }
 
-  .contacts-btn {
-    min-width: 300px;
+  .select-open-button {
+    width: 300px;
     margin-top: 0;
     margin-left: 0;
     margin-bottom: 132px;
     padding: 5px 76px 5px 20px;
   }
 
-  .contacts-btn::after {
-    left: 213px;
+  .arrow {
+    left: 270px;
   }
+
+  /* .select-open-button::after {
+    left: 270px;
+  } */
 }
 
 /* Footer */
